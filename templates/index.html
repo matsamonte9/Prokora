@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block title %}Dashboard{% endblock %}</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  
+  {% if session.get("csrf_token") %}
+      <meta name="csrf-token" content="{{ session['csrf_token'] }}">
+  {% endif %}
+</head>
+
+<body data-module="{{ active_module }}">
+  <div class="container">
+    <!-- Sidebar Section -->
+    <aside>
+      <div class="top">
+        <div class="logo">
+          <a href="{{ url_for('index') }}">
+            <img src="{{ url_for('static', filename='images/prokora_logo_final.png') }}" alt="logo" class="sidebar-logo-img" width="180px" height="50px" />
+          </a>
+          <p>DEBUG user_id: {{ user_id }}</p>
+        </div>
+      </div>
+      
+      <div class="sidebar">
+       
+        {% for module in modules %}
+          {% set submodules = module.submodules %}
+          {% set has_submodules = submodules | length > 0 %}
+        
+          <!-- Show module if it's 'dashboard', or user has access to it (directly or via submodules) -->
+          {% if module.name == 'dashboard' or not has_submodules or has_submodules %}
+          
+              {% if has_submodules %}
+                  <!-- Parent Module with Submodules -->
+                  <a href="javascript:void(0);" class="sidebar-link parent-module" data-toggle="submodules-{{ module.id }}">
+                      <span class="material-symbols-outlined">{{ module.icon }}</span>
+                      <h3>{{ module.display_name }}</h3>
+                      <span class="material-symbols-outlined toggle-icon">expand_more</span>
+                  </a>
+                  <div id="submodules-{{ module.id }}" class="submodules" style="display: none;">
+                      {% for submodule in submodules %}
+                          <a href="javascript:void(0);"
+                            class="sidebar-link submodule"
+                            data-href="{{ url_for('load_module', module=module.name, submodule=submodule.name) }}"
+                            data-module="{{ module.name }}"
+                            data-submodule="{{ submodule.name }}"
+                            style="padding-left: 40px;">
+                              <span class="material-symbols-outlined">{{ submodule.icon }}</span>
+                              <h4>{{ submodule.display_name }}</h4>
+                          </a>
+                      {% endfor %}
+                  </div>
+              {% else %}
+                  <!-- Leaf Module -->
+                  <a href="javascript:void(0);"
+                    class="sidebar-link"
+                    data-href="{{ url_for('load_module', module=module.name) }}"
+                    data-module="{{ module.name }}">
+                      <span class="material-symbols-outlined">{{ module.icon }}</span>
+                      <h3>{{ module.display_name }}</h3>
+                  </a>
+              {% endif %}
+          {% endif %}
+      {% endfor %}
+        
+        
+
+        <a href="{{ url_for('logout') }}">
+          <span class="material-symbols-outlined">logout</span>
+          <h3>Logout</h3>
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Section -->
+    <main>
+      <div id="main-content" class="main-content"> 
+        {% block content %}
+        {% include 'modules/dashboard.html' with context %}
+        {% endblock %}
+      </div>
+    </main>
+  </div>
+  
+  <script>
+    const userPermissions = {{ user_permissions | tojson | safe }};
+    console.log(userPermissions); 
+  </script>
+  <script src="{{ url_for('static', filename='js/header.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/common.js') }}"></script>
+  <script type="module" src="{{ url_for('static', filename='js/projects.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/themeToggler.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/usermanagement.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/modal.js') }}"></script>
+  
+</body>
+</html>

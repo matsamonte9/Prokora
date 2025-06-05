@@ -1,0 +1,32 @@
+{% set title = "User Management" %}
+{% include 'header.html' with context %}
+<div id="message-container">
+    {% if message %}
+    <div class="alert alert-warning alert-dismissible fade show" role="alert" id="message">
+        {{ message }}
+    </div>
+    {% endif %}
+</div>
+<div id="user-management-view" style="display: {{ 'block' if initial_view == 'user_list' else 'none' }};">
+  <div id="userTableContainer">
+    {% include 'modules/partials/user_table.html' %}
+  </div>
+</div>
+
+<div id="permissions-view" style="display: {{ 'block' if initial_view == 'permissions' else 'none' }};">
+  <button class="action-button back" onclick="switchToUserManagementView()">
+    ← Back to User Management
+  </button>
+  {% include 'modules/modify_permission_form.html' %}
+</div>
+
+{% include 'modules/add_user.html' %}
+{% for user in users %}
+    {% include 'modules/edit_user.html' with context %}
+{% endfor %}
+
+<script src="{{ url_for('static', filename='js/pagination.js') }}" defer></script>
+
+
+
+

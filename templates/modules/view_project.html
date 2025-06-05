@@ -1,0 +1,47 @@
+<div class="project-modal view-project"> 
+    <div class="popup" id="popup-view-project">
+        <div class="overlay">
+            <div class="content">
+                {% if message %}
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                {% endif %}
+
+                <div class="project-container-element">
+                    <div class="close-btn" onclick="toggleViewProjectModal()">&times;</div>
+                    <h2>Project Details</h2>
+                
+                <div class="form-row">
+                        <div class="mb-3">
+                            <p class="form-label">Project ID</p>
+                            <input type="text" class="display-project-id" readonly>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <p class="form-label">Project Name</p>
+                            <input type="text" class="name" readonly>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="mb-3">
+                            <p class="form-label">Project Description</p>
+                            <textarea class="description" readonly></textarea>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                                <select name="status" id="status" disabled>
+                                    <option value="ongoing">Ongoing</option>
+                                    <option value="finished">Finished</option>
+                                </select>
+                    
+                    </div>
+                                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

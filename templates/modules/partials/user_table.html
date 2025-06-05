@@ -1,0 +1,78 @@
+<div class="table-data">
+  <div class="user-list">
+    <div class="head">
+      <h3>Users</h3>
+      <div class="head-center">
+        <div class="search-box">
+          <form method="get" action="{{ url_for('user_management') }}" class="search-box">
+            <span class="material-symbols-outlined">search</span>
+            <input type="text" placeholder="Search for ID, Name, or Email" />
+          </form>
+        </div>
+      </div>
+      <button onclick="toggleAddUserModal()" class="action-button add-user">
+        <span class="material-symbols-outlined">person_add</span>
+        Add User
+      </button>
+      <!--  <button class="action-button filter">
+        <span class="material-symbols-outlined">filter_list</span>
+        Filter
+      </button> -->
+      <button class="action-button modify-permissions" onclick="switchToPermissionsView()">
+        <span class="material-symbols-outlined">settings</span>
+        Permissions
+      </button>
+    
+    
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Profile</th>
+          <th>Role</th>
+          <th>Email</th>
+          <th>Permissions</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for user in users %}
+        <tr data-user-id="{{ user.id }}">
+          <td><p>{{ user.id }}</p></td>
+          <td>
+            <img src="{{ url_for('static', filename='images/user_profile.png') }}" alt="Logo">
+            <p>{{ user.name }}</p>
+          </td>
+          <td>
+            {% for role in user.roles %}
+            <p>{{ role.name }}</p>
+            {% endfor %}
+          </td>
+          <td><p>{{ user.email }}</p></td>
+          <td class="permissions-container">
+              {% for perm in user.all_permissions|sort(attribute='name') %}
+                  <p class="permission-item">{{ perm.name }}</p>
+              {% endfor %}
+          </td>
+          <td>
+              <span type="button" onclick="toggleEditUserModal()" class="material-symbols-outlined btn-edit"data-user-id="{{ user.id }}" data-name="{{ user.name }}" data-email="{{ user.email }}" data-role="{{ user.roles[0].name if user.roles else 'No Role' }}">edit</span>
+              <span class="material-symbols-outlined btn-delete" data-user-id="{{ user.id }}">delete</span>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div id="pagination-controls" class="pagination-controls">
+  <button id="prevPage" onclick="changePage(-1)">Prev</button>
+  <span id="pageInfo"> Page 1 of 1</span>
+  <button id="nextPage" onclick="changePage(1)">Next</button>
+</div>
+
+<script src="{{ url_for('static', filename='js/pagination.js') }}" defer></script>
+<script src="{{ url_for('static', filename='js/modal.js') }}"></script>
+<script src="{{ url_for('static', filename='js/userManagement.js') }}"></script>
+

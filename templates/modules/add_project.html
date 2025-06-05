@@ -1,0 +1,38 @@
+<div class="project-modal add-project">
+    <div class="popup" id="popup-add-project">
+        <div class="overlay">
+            <div class="content">
+                <div id="add-project-message"></div>
+    
+                <div class="project-container-element">
+                    <div class="close-btn" onclick="toggleAddProjectModal()">&times;</div>
+                    <h2>Add Project</h2>
+                    
+                    <form id="add-project-form" class="add-project-form">
+                        <div class="form-row">
+                            <div class="mb-3">
+                                <p class="form-label">Project Name</p>
+                                <input type="text" id="add-project-name" name="name" class="form-control" placeholder="Enter project name" required>
+                            </div>
+    
+                            <div class="mb-3">
+                                <p class="form-label" >Project Description</p>
+                                <textarea id="add-project-description" name="description" class="form-control" placeholder="Enter project description" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <select name="status" id="status">
+                                    <option value="ongoing">Ongoing</option>
+                                    <option value="finished">Finished</option>
+                                </select>
+                            </div>
+                        
+                        </div>
+                        <button type="submit" class="btn btn-add w-100">Add Project</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

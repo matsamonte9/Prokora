@@ -1,0 +1,105 @@
+{% set title = "Dashboard" %}
+{% include 'header.html' with context %}
+      <!-- Main Section Start -->
+        <ul class="box-info">
+            <li>
+              <div class="bx"><img src="{{ url_for('static', filename='images/user_profile.png') }}" alt="Logo"></div>
+              <span class="text">
+                <h3>Box 1</h3>
+              </span>
+            </li>
+            <li>
+              <div class="bx"><img src="{{ url_for('static', filename='images/user_profile.png') }}" alt="Logo"></div>
+              <span class="text">
+                <h3>Box 2</h3>
+              </span>
+            </li>
+            <li>
+              <div class="bx"><img src="{{ url_for('static', filename='images/user_profile.png') }}" alt="Logo"></div>
+              <span class="text">
+                <h3>Box 3</h3>
+              </span>
+            </li>
+          
+        </ul>
+
+
+        <div class="table-data">
+            <div class="orders">
+              <div class="head">
+                <h3>Box 4</h3>
+              </div>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Customer</th>
+                    <th>Date Order</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John Doe</td>
+                    <td>12/05/2022</td>
+                    <td><span class="status completed">Completed</span></td>
+                  </tr>
+                  <tr>
+                    <td>Jane Doe</td>
+                    <td>11/05/2022</td>
+                    <td><span class="status pending">Pending</span></td>
+                  </tr>
+                  <tr>
+                    <td>Mark Doe</td>
+                    <td>10/05/2022</td>
+                    <td><span class="status canceled">Canceled</span></td>
+                  </tr>
+                  <tr>
+                    <td>John Doe</td>
+                    <td>12/05/2022</td>
+                    <td><span class="status completed">Completed</span></td>
+                  </tr>
+                  <tr>
+                    <td>Jane Doe</td>
+                    <td>11/05/2022</td>
+                    <td><span class="status pending">Pending</span></td>
+                  </tr>
+                  <tr>
+                    <td>Mark Doe</td>
+                    <td>10/05/2022</td>
+                    <td><span class="status canceled">Canceled</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="todo">
+              <div class="head">
+                <h3>Box 5</h3>
+              </div>
+              <ul class="todo-list">
+                <li class="completed">
+                  <p>Task 1</p>
+                </li>
+                <li class="completed">
+                  <p>Task 2</p>
+                </li>
+                <li class="not-completed">
+                  <p>Task 3</p>
+                </li>
+                <li class="completed">
+                  <p>Task 4</p>
+                </li>
+                <li class="not-completed">
+                  <p>Task 5</p>
+                </li>
+                <li class="not-completed">
+                  <p>Box 5.6</p>
+                </li>
+              </ul>
+            </div>
+        </div>
+
+        {% block content %}
+        <!-- Your main content goes here -->
+        {% endblock %}
+      <!-- Main Section End -->
+

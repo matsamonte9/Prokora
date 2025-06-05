@@ -1,0 +1,54 @@
+<div class="popup" id="popup-add-user">
+    <div class="overlay">
+    <div class="content">
+        {% if message %}
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+          {{ message }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endif %}
+  
+        <div class="user-container-element">
+          <div class="close-btn" onclick="toggleAddUserModal()">&times;</div>
+          <h2>Add User</h2>
+  
+          <form method="POST" action="{{ url_for('add_user') }}" class="add-user-form">
+            <div class="form-row">
+              <div class="mb-3">
+                <p class="form-label">Employee name </p>
+                <input type="text" name="name" class="form-control" placeholder="Juan Dela Cruz" required>
+              </div>
+  
+              <div class="mb-3">
+                <p class="form-label">Email </p>
+                <input type="email" name="email" class="form-control" placeholder="juandelacruz@example.com" required>
+              </div>
+            </div>
+  
+            <div class="form-row">
+              <div class="mb-3">
+                <p class="form-label">Password </p>
+                <input type="password" name="password" class="form-control" placeholder="********" required>
+              </div>
+  
+              <div class="mb-3 position-relative custom-select-wrapper">
+                <p class="form-label">Role</p>
+                <select name="role" class="form-select" required>
+                  <option value="" disabled selected hidden>Add Role</option>
+                  <option value="admin">Admin</option>
+                  <option value="project">Project</option>
+                  <option value="sales">Sales</option>
+                  <option value="marketing">Marketing</option>
+                  <option value="leads">Leads</option>
+                </select>
+                <span class="material-symbols-outlined">arrow_drop_down</span>
+              </div>
+            </div>
+  
+            <button type="submit" class="btn btn-add w-100">Add User</button>
+          </form>
+        </div>
+    </div>
+</div>
+  </div>
+  

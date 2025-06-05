@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}PROKORA-Dashboard{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <nav class="navbar custom_nav-container">
+    <div class="container">
+      <a class="navbar-brand" href="{{ url_for('index') }} ">
+        <img src="{{ url_for('static', filename='images/prokora_logo_final.png') }}" alt="logo" class="logo">
+      </a>
+      <div class="user-profile">
+        <img src="{{ url_for('static', filename='images/user_profile.png') }}" alt="User Avatar">
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sidebar Navigation -->
+  <div class="sidebar">
+    <ul class="sidebar-menu">
+      <li class="{% if active_page == 'dashboard' %}active{% endif %}">
+        <a href="{{ url_for('index') }}" data-module="dashboard">Dashboard</a>
+      </li>
+
+      {% if 'admin' in user_roles or 'project' in user_roles or 'Guest' in user_roles %}
+      <li class="dropdown {% if active_page == 'project' %}active{% endif %}">
+        <a href="javascript:void(0)" class="dropdown-toggle">
+          <span class="module-text">Project</span>
+        </a>
+        <ul class="dropdown-menu">
+          {% if 'project' in user_roles or 'admin' in user_roles %}
+            <li><a href="#" data-module="add_project">Add Project</a></li>
+            <li><a href="#" data-module="view_project">View Project</a></li>
+            <li><a href="#" data-module="update_project">Update Project</a></li>
+            <li><a href="#" data-module="delete_project">Delete Project</a></li>
+          {% elif 'admin' in user_roles %}
+            <li><a href="#" data-module="add_project">Add Project</a></li>
+            <li><a href="#" data-module="edit_project">Edit Project</a></li>
+            <li><a href="#" data-module="view_project">View Project</a></li>
+            <li><a href="#" data-module="delete_project">Delete Project</a></li>
+          {% elif 'Guest' in user_roles %}
+            <li><a href="#" data-module="view_project">View Project</a></li>
+          {% endif %}
+        </ul>
+      </li>
+      {% endif %}
+
+      {% if 'admin' in user_roles or 'sales' in user_roles or 'marketing' in user_roles or 'leads' in user_roles %}
+      <li><a href="#" data-module="crm">CRM</a></li>
+      <li><a href="#" data-module="marketing">Marketing</a></li>
+      <li><a href="#" data-module="leads">Leads</a></li>
+      <li><a href="#" data-module="employees">Employees</a></li>
+      {% endif %}
+      
+      {% if 'admin' in user_roles %}
+      <li><a href="#" data-module="user_management">User Management</a></li>
+      {% endif %}
+
+      <li class="logout"><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+  </div>
+
+  <!-- Main Content Area -->
+  <div class="main-content">
+    {% block content %}{% endblock %}
+  </div>
+
+  <script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+</body>
+</html>

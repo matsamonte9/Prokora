@@ -1,0 +1,38 @@
+<div class="project-modal edit-project">
+    <div class="popup" id="popup-edit-project">
+        <div class="overlay">
+            <div class="content">
+
+                <div class="project-container-element">
+                    <div class="close-btn" onclick="toggleEditProjectModal()">&times;</div>
+                    <h2>Edit Project</h2>
+
+                    <form id="edit-project-form" class="edit-project-form">
+                        <input type="hidden" name="project_id" id="edit-project-id">
+
+                        <div class="form-row">
+                            <div class="mb-3">
+                                <p class="form-label">Project Name</p>
+                                <input type="text" name="name" id="edit-project-name" class="form-control" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <p class="form-label">Project Description</p>
+                                <textarea name="description" id="edit-project-description" class="form-control" required></textarea>
+                            </div>
+
+                            <div class="mb-3">
+                                <select name="status" id="edit-project-status">  
+                                    <option value="ongoing">Ongoing</option>
+                                    <option value="finished">Finished</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-save-project w-100">Save Changes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

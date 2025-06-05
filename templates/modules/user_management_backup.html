@@ -1,0 +1,29 @@
+<h1>User Management</h1>
+<h2>Search Users</h2>
+
+<div class="user-management-header">
+  <div class="search-bar">
+    <form method="get" action="{{ url_for('user_management') }}" class="search-form">
+      <input type="text" name="search" placeholder="Search users..." value="{{ request.args.get('search', '') }}">
+      <button type="submit" class="btn-search">Search</button>
+    </form>
+  </div>
+  
+  <!-- Add User button moved below -->
+ 
+  <div class="add-user-button">
+    <a href="{{ url_for('add_user') }}" class="btn-add">Add User</a>
+  </div>
+ 
+</div>
+  
+  
+  <p>Users Loaded: {{ users|length }}</p>
+  <div id="userTableContainer">
+    {% include 'modules/partials/user_table.html' %}
+  </div>
+
+
+
+
+

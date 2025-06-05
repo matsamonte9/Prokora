@@ -1,0 +1,39 @@
+<div class="head--wrapper">
+  <div class="head--title">
+    <h1>{{ title }}</h1>
+  </div>
+  
+  <div class="user--info">
+    <div class="theme-toggler">
+      <span class="material-symbols-outlined">light_mode</span>
+      <span class="material-symbols-outlined active">dark_mode</span>
+    </div>
+    
+    <div class="info">
+      <p><b>{{ session['user_name'] }}</b></p>
+      <p>{{ session['roles'][0].capitalize() }}</p>
+    </div>
+
+    <div class="profile-menu-container">
+      <div class="profile-photo" id="profile-photo" tabindex="0" aria-haspopup="true" aria-expanded="false" role="button" aria-label="User profile menu">
+        <img src="{{ url_for('static', filename='images/user_profile.png') }}" alt="Profile Photo" />
+      </div>
+      <div id="profile-menu"  role="menu" aria-label="Profile menu">
+        <a href="javascript:void(0);" 
+        class="btn-edit-user-profile" 
+        data-user-id="{{ session['user_id'] }}" 
+        onclick="openEditUserProfileModal(this)" 
+        role="menuitem">Edit Profile</a>
+        
+        
+        <a href="{{ url_for('logout') }}" role="menuitem">Logout</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% include 'modules/edit_user_profile.html' with context %}
+
+
+<script src="{{ url_for('static', filename='js/modal.js') }}"></script>

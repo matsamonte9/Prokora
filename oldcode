@@ -1,0 +1,146 @@
+from flask import Flask, render_template, request, redirect, url_for, jsonify, session  
+from flask_sqlalchemy import SQLAlchemy
+from functools import wraps
+import jwt
+from werkzeug.security import check_password_hash, generate_password_hash
+from models import db, User, Role
+from crud import CRUD
+
+app = Flask(__name__)
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:@localhost:3306/items_testing'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.secret_key = "1234"  
+
+db.init_app(app) 
+
+SECRET_KEY = "1234"  
+
+class Item(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), unique=True, nullable=False)
+    
+    def __repr__(self):
+        return f'<Item {self.name}>'
+
+with app.app_context():
+    db.create_all()
+
+@app.route('/')
+def login_page():
+    return render_template('login.html')
+
+@app.route('/login', methods=['POST'])
+def handle_login():
+    email = request.form.get("email")
+    password = request.form.get("password")
+    
+    user = User.query.filter_by(email=email).first()
+
+    if not user:
+        return jsonify({"message": "Invalid credentials (User not found)"}), 401
+
+    if not check_password_hash(user.password_hash, password):
+        return jsonify({"message": "Invalid credentials (Incorrect password)"}), 401
+    
+    access_token = jwt.encode(
+        {"user_id": user.id, "role": user.role.name}, 
+        SECRET_KEY,  
+        algorithm="HS256"
+    )
+    
+    return jsonify({"message": "Login successful", "token": access_token}), 200
+
+def token_required(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        token = request.headers.get("Authorization")
+
+        if not token:
+            return jsonify({"message": "Token is missing"}), 401
+        
+        print("Received Token:", token)  # Debugging - Log the received token
+
+        try:
+            token = token.replace("Bearer ", "")  # Remove "Bearer " prefix
+            data = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
+            print(data)  # Debugging: see the decoded token
+
+            user = User.query.get(data["user_id"])
+            if not user:
+                return jsonify({"message": "User not found"}), 401
+        except jwt.ExpiredSignatureError:
+            return jsonify({"message": "Token has expired"}), 401
+        except jwt.InvalidTokenError:
+            return jsonify({"message": "Invalid token"}), 401
+
+        return f(user, *args, **kwargs)
+
+    return decorated
+
+@app.route('/protected', methods=['GET'])
+@token_required
+def protected(user):
+    return jsonify({"message": "Token valid", "user": user.email})
+
+@app.route('/index')
+@token_required
+def index(user):
+    items = Item.query.all()  
+    return render_template('index.html', items=items, user_role=user.role.name)
+
+@app.route('/add', methods=['POST'])
+@token_required
+def add(user):
+    if user.role.name != 'admin':  # Restrict access to admins only
+        return redirect(url_for('index', message="Access denied. Admins only."))
+
+    data = request.form.to_dict()  
+    success, message = CRUD.add(Item, data)
+    return redirect(url_for('index', message=message))
+
+@app.route('/view_item/<int:item_id>', methods=['GET'])
+@token_required
+def view_item(user, item_id):
+    success, result = CRUD.view_item(Item, {"id": item_id})  
+
+    if success:
+        return render_template('view_item.html', item=result[0])  
+    else:
+        return redirect(url_for('index', message=result))
+
+@app.route('/update/<int:item_id>', methods=['GET', 'POST'])
+@token_required
+def update(user, item_id):
+    item = Item.query.get(item_id)
+    
+    if not item:
+        return redirect(url_for('index', message="Error: Item not found."))
+
+    if request.method == 'POST':
+        new_name = request.form.get('name', '').strip()
+
+        if not new_name:
+            return redirect(url_for('index', message="Error: Item name cannot be empty."))
+        
+        if Item.query.filter_by(name=new_name).first():
+            return redirect(url_for('index', message="Error: There is already an item with that name."))
+
+        success, message = CRUD.update(item, {"name": new_name})
+        return redirect(url_for('index', message=message))
+    
+    return render_template('update_item.html', item=item)
+
+@app.route('/delete/<int:item_id>')
+@token_required
+def delete(user, item_id):
+    item = Item.query.get(item_id)
+    
+    if not item:
+        return redirect(url_for('index', message="Error: Item not found."))
+
+    success, message = CRUD.delete(item)
+    return redirect(url_for('index', message=message))
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)

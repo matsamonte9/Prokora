@@ -1,0 +1,70 @@
+{% extends "Index.html" %}
+
+{% block content %}
+<h1 class="edit-user-header">Edit User</h1>
+
+<!-- Message Container -->
+<div id="message-container">
+  {% if message %}
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      {{ message }}
+    </div>
+  {% endif %}
+</div>
+
+<!-- Edit User Form -->
+<div class="edit-user-container">
+    <form id="editUserForm" method="POST">
+        <input type="hidden" id="user_id" name="user_id" value="{{ user.id }}">
+        
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="{{ user.name }}" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="{{ user.email }}" required>
+        </div>
+        
+        <!-- Role Selection (dropdown instead of text input) -->
+        <div class="form-group">
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="admin" {% if user_role == 'admin' %}selected{% endif %}>Admin</option>
+                <option value="project" {% if user_role == 'project' %}selected{% endif %}>Project</option>
+                <option value="sales" {% if user_role == 'sales' %}selected{% endif %}>Sales</option>
+                <option value="marketing" {% if user_role == 'marketing' %}selected{% endif %}>Marketing</option>
+                <option value="leads" {% if user_role == 'leads' %}selected{% endif %}>Leads</option>
+                <!-- Add more roles if needed -->
+            </select>
+        </div>
+        
+        
+        <!-- Permissions Section -->
+        <div class="form-group">
+            <label>Permissions:</label>
+            <div class="permissions-group">
+            <input type="hidden" name="permissions" value="">
+                {% for perm in available_permissions %}
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="permissions" value="{{ perm.id }}" 
+                            {% if perm.id in current_permissions %}checked{% endif %}>
+                        <span class="custom-checkbox"></span> {{ perm.name }}
+                    </label>
+                {% endfor %}
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        <button type="submit" class="btn-update">Save Changes</button>
+    </form>
+
+    {% if error %}
+    <p class="error-message">{{ error }}</p>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,119 @@
+// Get current module and submodule from the URL
+export function getCurrentModuleAndSubmodule() {
+    const params = new URLSearchParams(window.location.search);
+    return {
+        module: params.get("module") || "default",
+        submodule: params.get("submodule") || "ongoing"
+    };
+}
+
+// Get the current page from the URL (default to 1)
+export function getCurrentPage() {
+    const urlParams = new URLSearchParams(window.location.search);
+    return parseInt(urlParams.get('page')) || 1; // Default to page 1 if no page param
+}
+
+// Reload the project table using fetch and inject HTML
+export function reloadProjectTable(module, submodule) {
+    const currentPage = getCurrentPage(); // Always get from URL
+
+    fetch(`/get_project_table?module=${module}&submodule=${submodule}&page=${currentPage}`, {
+        headers: { "X-Requested-With": "XMLHttpRequest" }
+    })
+    .then(res => {
+        if (!res.ok) throw new Error("No data or bad request.");
+        return res.text();
+    })
+    .then(html => {
+        const container = document.querySelector("#projectTableContainer");
+        if (container) {
+            container.innerHTML = html;
+
+            // Attach event handlers again after HTML is replaced
+            attachProjectButtonListeners();
+        } else {
+            console.warn("Project table container not found.");
+        }
+    })
+    .catch(err => console.error("Failed to reload project table:", err));
+}
+
+// Change the page and reload table with updated query param
+function changePage(step) {
+    const currentPage = getCurrentPage();
+    const totalPages = parseInt(document.querySelector('#pageInfo')?.textContent.match(/\d+$/)?.[0]) || 1;
+    const newPage = Math.min(Math.max(1, currentPage + step), totalPages);
+
+    const { module, submodule } = getCurrentModuleAndSubmodule();
+    const newUrl = `?module=${module}&submodule=${submodule}&page=${newPage}`;
+    window.history.pushState({}, '', newUrl);
+    reloadProjectTable(module, submodule);
+}
+
+
+// Re-attach event listeners for buttons (view/edit/delete)
+function attachProjectButtonListeners() {
+    document.querySelectorAll(".btn-view").forEach(btn => {
+        btn.onclick = () => toggleViewProjectModal(btn);
+    });
+
+    document.querySelectorAll(".btn-edit-project").forEach(btn => {
+        btn.onclick = () => toggleEditProjectModal(btn);
+    });
+
+    document.querySelectorAll(".btn-delete-project").forEach(btn => {
+        btn.onclick = () => {
+            const id = btn.dataset.projectId;
+            deleteProject(id);
+        };
+    });
+}
+
+// Reusable: Change to specific page and reload project table
+// Ensure the submodule parameter is correctly passed from the URL
+export function loadProjectTable(module, submodule = "ongoing", page = 1) {
+    const url = `/get_project_table?module=${module}&submodule=${submodule}&page=${page}`;
+    history.pushState({}, "", `?module=${module}&submodule=${submodule}&page=${page}`);
+    
+    fetch(url, {
+        headers: { "X-Requested-With": "XMLHttpRequest" }
+    })
+    .then(res => res.text())
+    .then(html => {
+        const container = document.querySelector("#projectTableContainer");
+        if (container) {
+            container.innerHTML = html;
+            attachProjectButtonListeners();
+        } else {
+            console.warn("Project table container not found.");
+        }
+    })
+    .catch(err => console.error("Failed to load project table:", err));
+}
+
+// On page load
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Common JS Loaded!");
+
+    const container = document.querySelector("#projectTableContainer");
+    const { module, submodule } = getCurrentModuleAndSubmodule();
+
+    if (container) {
+        if (submodule === "ongoing" || submodule === "finished") {
+            reloadProjectTable(module, submodule);
+        } else {
+            console.warn("Invalid submodule for table reload. Skipping...");
+        }
+    } else {
+        console.warn("Project table container not found.");
+    }
+
+    // Setup pagination button clicks using event delegation
+    document.addEventListener("click", (e) => {
+        if (e.target.id === "prevPage") {
+            changePage(-1);
+        } else if (e.target.id === "nextPage") {
+            changePage(1);
+        }
+    });
+});

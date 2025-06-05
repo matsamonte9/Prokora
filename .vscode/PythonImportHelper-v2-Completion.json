@@ -1,0 +1,2793 @@
+[
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "make_response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "make_response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRoles",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "role_permissions",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Submodule",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "UserPermissions",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Submodule",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "submodule_roles",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRoles",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "role_permissions",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Submodule",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "UserPermissions",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRoles",
+        "importPath": "models",
+        "description": "models",
+        "isExtraImport": true,
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Migrate",
+        "importPath": "flask_migrate",
+        "description": "flask_migrate",
+        "isExtraImport": true,
+        "detail": "flask_migrate",
+        "documentation": {}
+    },
+    {
+        "label": "Security",
+        "importPath": "flask_security",
+        "description": "flask_security",
+        "isExtraImport": true,
+        "detail": "flask_security",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyUserDatastore",
+        "importPath": "flask_security",
+        "description": "flask_security",
+        "isExtraImport": true,
+        "detail": "flask_security",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_security",
+        "description": "flask_security",
+        "isExtraImport": true,
+        "detail": "flask_security",
+        "documentation": {}
+    },
+    {
+        "label": "RoleMixin",
+        "importPath": "flask_security",
+        "description": "flask_security",
+        "isExtraImport": true,
+        "detail": "flask_security",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_security",
+        "description": "flask_security",
+        "isExtraImport": true,
+        "detail": "flask_security",
+        "documentation": {}
+    },
+    {
+        "label": "RoleMixin",
+        "importPath": "flask_security",
+        "description": "flask_security",
+        "isExtraImport": true,
+        "detail": "flask_security",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "flask_session",
+        "description": "flask_session",
+        "isExtraImport": true,
+        "detail": "flask_session",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "hash_data",
+        "importPath": "flask_security.utils",
+        "description": "flask_security.utils",
+        "isExtraImport": true,
+        "detail": "flask_security.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_message",
+        "importPath": "helpers.helpers",
+        "description": "helpers.helpers",
+        "isExtraImport": true,
+        "detail": "helpers.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "set_message",
+        "importPath": "helpers.helpers",
+        "description": "helpers.helpers",
+        "isExtraImport": true,
+        "detail": "helpers.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "get_message",
+        "importPath": "helpers.helpers",
+        "description": "helpers.helpers",
+        "isExtraImport": true,
+        "detail": "helpers.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "init_routes",
+        "importPath": "routes",
+        "description": "routes",
+        "isExtraImport": true,
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "werkzeug.security",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "URLSafeTimedSerializer",
+        "importPath": "itsdangerous",
+        "description": "itsdangerous",
+        "isExtraImport": true,
+        "detail": "itsdangerous",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "generate_csrf",
+        "importPath": "flask_wtf.csrf",
+        "description": "flask_wtf.csrf",
+        "isExtraImport": true,
+        "detail": "flask_wtf.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "validate_csrf",
+        "importPath": "flask_wtf.csrf",
+        "description": "flask_wtf.csrf",
+        "isExtraImport": true,
+        "detail": "flask_wtf.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "generate_csrf",
+        "importPath": "flask_wtf.csrf",
+        "description": "flask_wtf.csrf",
+        "isExtraImport": true,
+        "detail": "flask_wtf.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "validate_csrf",
+        "importPath": "flask_wtf.csrf",
+        "description": "flask_wtf.csrf",
+        "isExtraImport": true,
+        "detail": "flask_wtf.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "CRUD",
+        "importPath": "crud",
+        "description": "crud",
+        "isExtraImport": true,
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "CRUD",
+        "importPath": "crud",
+        "description": "crud",
+        "isExtraImport": true,
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "StaleDataError",
+        "importPath": "sqlalchemy.orm.exc",
+        "description": "sqlalchemy.orm.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.exc",
+        "documentation": {}
+    },
+    {
+        "label": "StaleDataError",
+        "importPath": "sqlalchemy.orm.exc",
+        "description": "sqlalchemy.orm.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.exc",
+        "documentation": {}
+    },
+    {
+        "label": "scoped_session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "joinedload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "scoped_session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "get_accessible_modules_with_submodules",
+        "importPath": "helpers.module_utils",
+        "description": "helpers.module_utils",
+        "isExtraImport": true,
+        "detail": "helpers.module_utils",
+        "documentation": {}
+    },
+    {
+        "label": "permission_required",
+        "importPath": "helpers.utils",
+        "description": "helpers.utils",
+        "isExtraImport": true,
+        "detail": "helpers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "set_message",
+        "importPath": "helpers",
+        "description": "helpers",
+        "isExtraImport": true,
+        "detail": "helpers",
+        "documentation": {}
+    },
+    {
+        "label": "get_message",
+        "importPath": "helpers",
+        "description": "helpers",
+        "isExtraImport": true,
+        "detail": "helpers",
+        "documentation": {}
+    },
+    {
+        "label": "set_message",
+        "kind": 2,
+        "importPath": "helpers.helpers",
+        "description": "helpers.helpers",
+        "peekOfCode": "def set_message(message):\n    \"\"\"Store message in session.\"\"\"\n    session['message'] = message\ndef get_message():\n    \"\"\"Retrieve and clear message from session.\"\"\"\n    message = session.pop('message', None)\n    return message",
+        "detail": "helpers.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "get_message",
+        "kind": 2,
+        "importPath": "helpers.helpers",
+        "description": "helpers.helpers",
+        "peekOfCode": "def get_message():\n    \"\"\"Retrieve and clear message from session.\"\"\"\n    message = session.pop('message', None)\n    return message",
+        "detail": "helpers.helpers",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_modules_and_submodules",
+        "kind": 2,
+        "importPath": "helpers.module_utils",
+        "description": "helpers.module_utils",
+        "peekOfCode": "def get_user_modules_and_submodules(user_id):\n    modules = set()\n    submodules = set()\n    # Ensure user_id is valid and fetch the User object\n    user = User.query.get(user_id)  # Retrieve the full User object from the database\n    if user is None:\n        print(\"Error: User not found in the database.\")\n        return modules, submodules\n    # Now proceed with roles as the user object is correctly retrieved\n    for role in user.roles:",
+        "detail": "helpers.module_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_accessible_modules_with_submodules",
+        "kind": 2,
+        "importPath": "helpers.module_utils",
+        "description": "helpers.module_utils",
+        "peekOfCode": "def get_accessible_modules_with_submodules(user):\n    # Get modules and submodules for the user's roles\n    modules, submodules = get_user_modules_and_submodules(user)\n    # Add dashboard manually if it exists and is public\n    dashboard_module = Module.query.filter_by(name='dashboard').first()\n    if dashboard_module and dashboard_module not in modules:\n        modules.add(dashboard_module)\n    # Sort modules by sequence (ensure each module has a 'sequence' attribute)\n    module_list = sorted(modules, key=lambda m: m.sequence if hasattr(m, 'sequence') else 0)\n    print(f\"Sorted Modules: {[module.name for module in module_list]}\")",
+        "detail": "helpers.module_utils",
+        "documentation": {}
+    },
+    {
+        "label": "permission_required",
+        "kind": 2,
+        "importPath": "helpers.utils",
+        "description": "helpers.utils",
+        "peekOfCode": "def permission_required(required_roles=None, required_permissions=None):\n    def decorator(f):\n        @wraps(f)\n        def wrapper(*args, **kwargs):\n            if \"user_id\" not in session:\n                return redirect(url_for(\"login_page\"))\n            user_roles = session.get(\"roles\", [])\n            user_permissions = session.get(\"user_permissions\", [])\n            # Check roles\n            if required_roles:",
+        "detail": "helpers.utils",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "description": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "description": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "description": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "peekOfCode": "revision = '0c791398617c'\ndown_revision = '3ffe913134b7'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "description": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "peekOfCode": "down_revision = '3ffe913134b7'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',",
+        "detail": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "description": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),",
+        "detail": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "description": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.0c791398617c_fix_relationship_conflicts_and_foreign_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "description": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('parent_id', sa.Integer(), nullable=True))\n        batch_op.create_foreign_key(None, 'module', ['parent_id'], ['id'])\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_constraint(None, type_='foreignkey')",
+        "detail": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "description": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_constraint(None, type_='foreignkey')\n        batch_op.drop_column('parent_id')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "description": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "peekOfCode": "revision = '3545f87f7a7f'\ndown_revision = 'ea1100ec8b77'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('parent_id', sa.Integer(), nullable=True))\n        batch_op.create_foreign_key(None, 'module', ['parent_id'], ['id'])\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "description": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "peekOfCode": "down_revision = 'ea1100ec8b77'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('parent_id', sa.Integer(), nullable=True))\n        batch_op.create_foreign_key(None, 'module', ['parent_id'], ['id'])\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "description": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('parent_id', sa.Integer(), nullable=True))\n        batch_op.create_foreign_key(None, 'module', ['parent_id'], ['id'])\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "description": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('parent_id', sa.Integer(), nullable=True))\n        batch_op.create_foreign_key(None, 'module', ['parent_id'], ['id'])\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:",
+        "detail": "migrations.versions.3545f87f7a7f_add_parent_id_to_module_for_submodules",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "description": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "description": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "description": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "peekOfCode": "revision = '3ffe913134b7'\ndown_revision = '832a66469b2e'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "description": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "peekOfCode": "down_revision = '832a66469b2e'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',",
+        "detail": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "description": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),",
+        "detail": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "description": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.3ffe913134b7_updated_relationships_and_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "description": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "description": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "description": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "peekOfCode": "revision = '5f919f97dba5'\ndown_revision = 'a7856fa92b23'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "description": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "peekOfCode": "down_revision = 'a7856fa92b23'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',",
+        "detail": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "description": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),",
+        "detail": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "description": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.5f919f97dba5_fix_relationship_using_back_populates",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.608307202db6_add_submodule_table",
+        "description": "migrations.versions.608307202db6_add_submodule_table",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_constraint('module_ibfk_1', type_='foreignkey')\n        batch_op.drop_column('parent_id')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('parent_id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=True))",
+        "detail": "migrations.versions.608307202db6_add_submodule_table",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.608307202db6_add_submodule_table",
+        "description": "migrations.versions.608307202db6_add_submodule_table",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('parent_id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=True))\n        batch_op.create_foreign_key('module_ibfk_1', 'module', ['parent_id'], ['id'])\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.608307202db6_add_submodule_table",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.608307202db6_add_submodule_table",
+        "description": "migrations.versions.608307202db6_add_submodule_table",
+        "peekOfCode": "revision = '608307202db6'\ndown_revision = '8d12f0dbe401'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_constraint('module_ibfk_1', type_='foreignkey')\n        batch_op.drop_column('parent_id')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.608307202db6_add_submodule_table",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.608307202db6_add_submodule_table",
+        "description": "migrations.versions.608307202db6_add_submodule_table",
+        "peekOfCode": "down_revision = '8d12f0dbe401'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_constraint('module_ibfk_1', type_='foreignkey')\n        batch_op.drop_column('parent_id')\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.608307202db6_add_submodule_table",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.608307202db6_add_submodule_table",
+        "description": "migrations.versions.608307202db6_add_submodule_table",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_constraint('module_ibfk_1', type_='foreignkey')\n        batch_op.drop_column('parent_id')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.608307202db6_add_submodule_table",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.608307202db6_add_submodule_table",
+        "description": "migrations.versions.608307202db6_add_submodule_table",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_constraint('module_ibfk_1', type_='foreignkey')\n        batch_op.drop_column('parent_id')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:",
+        "detail": "migrations.versions.608307202db6_add_submodule_table",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.7bc70f9c0606_add_project_model",
+        "description": "migrations.versions.7bc70f9c0606_add_project_model",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('project',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.Text(), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.7bc70f9c0606_add_project_model",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.7bc70f9c0606_add_project_model",
+        "description": "migrations.versions.7bc70f9c0606_add_project_model",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('project')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.7bc70f9c0606_add_project_model",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.7bc70f9c0606_add_project_model",
+        "description": "migrations.versions.7bc70f9c0606_add_project_model",
+        "peekOfCode": "revision = '7bc70f9c0606'\ndown_revision = 'b86ac50773bc'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('project',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.Text(), nullable=True),",
+        "detail": "migrations.versions.7bc70f9c0606_add_project_model",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.7bc70f9c0606_add_project_model",
+        "description": "migrations.versions.7bc70f9c0606_add_project_model",
+        "peekOfCode": "down_revision = 'b86ac50773bc'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('project',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.Text(), nullable=True),\n    sa.PrimaryKeyConstraint('id')",
+        "detail": "migrations.versions.7bc70f9c0606_add_project_model",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.7bc70f9c0606_add_project_model",
+        "description": "migrations.versions.7bc70f9c0606_add_project_model",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('project',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.Text(), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )",
+        "detail": "migrations.versions.7bc70f9c0606_add_project_model",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.7bc70f9c0606_add_project_model",
+        "description": "migrations.versions.7bc70f9c0606_add_project_model",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('project',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('name', sa.String(length=100), nullable=False),\n    sa.Column('description', sa.Text(), nullable=True),\n    sa.PrimaryKeyConstraint('id')\n    )\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.7bc70f9c0606_add_project_model",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "description": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('user_permissions')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user_permissions',\n    sa.Column('user_id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=False),\n    sa.Column('permission_id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=False),\n    sa.Column('id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=False),",
+        "detail": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "description": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user_permissions',\n    sa.Column('user_id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=False),\n    sa.Column('permission_id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=False),\n    sa.Column('id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=False),\n    sa.ForeignKeyConstraint(['permission_id'], ['permission.id'], name='user_permissions_ibfk_2', ondelete='CASCADE'),\n    sa.ForeignKeyConstraint(['user_id'], ['user.id'], name='user_permissions_ibfk_1', ondelete='CASCADE'),\n    sa.PrimaryKeyConstraint('user_id', 'permission_id'),\n    mysql_collate='utf8mb4_general_ci',",
+        "detail": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "description": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "peekOfCode": "revision = '7cffec930b80'\ndown_revision = 'debb1e98662f'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('user_permissions')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "description": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "peekOfCode": "down_revision = 'debb1e98662f'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('user_permissions')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user_permissions',",
+        "detail": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "description": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('user_permissions')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user_permissions',\n    sa.Column('user_id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=False),",
+        "detail": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "description": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('user_permissions')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user_permissions',\n    sa.Column('user_id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=False),\n    sa.Column('permission_id', mysql.INTEGER(display_width=11), autoincrement=False, nullable=False),",
+        "detail": "migrations.versions.7cffec930b80_updated_models_for_role_based_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "description": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('permission', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('description', sa.String(length=255), nullable=True))\n        batch_op.alter_column('name',\n               existing_type=mysql.VARCHAR(length=50),\n               type_=sa.String(length=80),\n               existing_nullable=False)\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('id', sa.Integer(), nullable=False))",
+        "detail": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "description": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n        batch_op.drop_column('id')",
+        "detail": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "description": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "peekOfCode": "revision = '832a66469b2e'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('permission', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('description', sa.String(length=255), nullable=True))\n        batch_op.alter_column('name',\n               existing_type=mysql.VARCHAR(length=50),",
+        "detail": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "description": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('permission', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('description', sa.String(length=255), nullable=True))\n        batch_op.alter_column('name',\n               existing_type=mysql.VARCHAR(length=50),\n               type_=sa.String(length=80),",
+        "detail": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "description": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('permission', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('description', sa.String(length=255), nullable=True))\n        batch_op.alter_column('name',\n               existing_type=mysql.VARCHAR(length=50),\n               type_=sa.String(length=80),\n               existing_nullable=False)",
+        "detail": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "description": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('permission', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('description', sa.String(length=255), nullable=True))\n        batch_op.alter_column('name',\n               existing_type=mysql.VARCHAR(length=50),\n               type_=sa.String(length=80),\n               existing_nullable=False)\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:",
+        "detail": "migrations.versions.832a66469b2e_initial_migration_after_reinitializing_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "description": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('project', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('status', sa.String(length=50), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('project', schema=None) as batch_op:\n        batch_op.drop_column('status')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "description": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('project', schema=None) as batch_op:\n        batch_op.drop_column('status')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "description": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "peekOfCode": "revision = '8d12f0dbe401'\ndown_revision = '3545f87f7a7f'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('project', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('status', sa.String(length=50), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "description": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "peekOfCode": "down_revision = '3545f87f7a7f'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('project', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('status', sa.String(length=50), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "description": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('project', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('status', sa.String(length=50), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('project', schema=None) as batch_op:",
+        "detail": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "description": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('project', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('status', sa.String(length=50), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('project', schema=None) as batch_op:\n        batch_op.drop_column('status')",
+        "detail": "migrations.versions.8d12f0dbe401_add_status_column_to_project",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "description": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('submodule', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('icon', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('submodule', schema=None) as batch_op:\n        batch_op.drop_column('icon')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "description": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('submodule', schema=None) as batch_op:\n        batch_op.drop_column('icon')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "description": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "peekOfCode": "revision = '96a418eeb147'\ndown_revision = '608307202db6'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('submodule', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('icon', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "description": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "peekOfCode": "down_revision = '608307202db6'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('submodule', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('icon', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "description": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('submodule', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('icon', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('submodule', schema=None) as batch_op:",
+        "detail": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "description": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('submodule', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('icon', sa.String(length=100), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('submodule', schema=None) as batch_op:\n        batch_op.drop_column('icon')",
+        "detail": "migrations.versions.96a418eeb147_adding_icon_on_submodule",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "description": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "description": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "description": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "peekOfCode": "revision = 'a7856fa92b23'\ndown_revision = 'c2ed6c4485d0'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "description": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "peekOfCode": "down_revision = 'c2ed6c4485d0'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',",
+        "detail": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "description": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),",
+        "detail": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "description": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.a7856fa92b23_add_auto_increment_to_user_permissions_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "description": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('is_active', sa.Boolean(), nullable=True))\n        batch_op.add_column(sa.Column('activation_token', sa.String(length=64), nullable=True))\n        batch_op.create_unique_constraint(None, ['activation_token'])\n        batch_op.drop_column('active')\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "description": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('active', mysql.TINYINT(display_width=1), autoincrement=False, nullable=True))\n        batch_op.drop_constraint(None, type_='unique')\n        batch_op.drop_column('activation_token')\n        batch_op.drop_column('is_active')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "description": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "peekOfCode": "revision = 'b86ac50773bc'\ndown_revision = '7cffec930b80'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('is_active', sa.Boolean(), nullable=True))\n        batch_op.add_column(sa.Column('activation_token', sa.String(length=64), nullable=True))\n        batch_op.create_unique_constraint(None, ['activation_token'])",
+        "detail": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "description": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "peekOfCode": "down_revision = '7cffec930b80'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('is_active', sa.Boolean(), nullable=True))\n        batch_op.add_column(sa.Column('activation_token', sa.String(length=64), nullable=True))\n        batch_op.create_unique_constraint(None, ['activation_token'])\n        batch_op.drop_column('active')",
+        "detail": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "description": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('is_active', sa.Boolean(), nullable=True))\n        batch_op.add_column(sa.Column('activation_token', sa.String(length=64), nullable=True))\n        batch_op.create_unique_constraint(None, ['activation_token'])\n        batch_op.drop_column('active')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "description": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('is_active', sa.Boolean(), nullable=True))\n        batch_op.add_column(sa.Column('activation_token', sa.String(length=64), nullable=True))\n        batch_op.create_unique_constraint(None, ['activation_token'])\n        batch_op.drop_column('active')\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.b86ac50773bc_updated_user_model_removed_active_added_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "description": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "peekOfCode": "def upgrade():\n    # ### Alter columns for user_permissions table to make them nullable ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)  # Make user_id nullable\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)  # Make permission_id nullable\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "description": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "peekOfCode": "def downgrade():\n    # ### Rollback column changes ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)  # Make user_id non-nullable\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)  # Make permission_id non-nullable\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "description": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "peekOfCode": "revision = 'c2ed6c4485d0'\ndown_revision = 'c64703f2ff1d'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### Alter columns for user_permissions table to make them nullable ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)  # Make user_id nullable",
+        "detail": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "description": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "peekOfCode": "down_revision = 'c64703f2ff1d'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### Alter columns for user_permissions table to make them nullable ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)  # Make user_id nullable\n        batch_op.alter_column('permission_id',",
+        "detail": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "description": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### Alter columns for user_permissions table to make them nullable ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)  # Make user_id nullable\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),",
+        "detail": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "description": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### Alter columns for user_permissions table to make them nullable ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)  # Make user_id nullable\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)  # Make permission_id nullable",
+        "detail": "migrations.versions.c2ed6c4485d0_added_user_permissions_table_and_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "description": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "description": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "description": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "peekOfCode": "revision = 'c64703f2ff1d'\ndown_revision = '0c791398617c'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "description": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "peekOfCode": "down_revision = '0c791398617c'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',",
+        "detail": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "description": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),",
+        "detail": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "description": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.c64703f2ff1d_updated_relationships_and_associations_",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "description": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "description": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "description": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "peekOfCode": "revision = 'debb1e98662f'\ndown_revision = '5f919f97dba5'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "description": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "peekOfCode": "down_revision = '5f919f97dba5'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',",
+        "detail": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "description": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),",
+        "detail": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "description": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('user_permissions', schema=None) as batch_op:\n        batch_op.alter_column('user_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)\n        batch_op.alter_column('permission_id',\n               existing_type=mysql.INTEGER(display_width=11),\n               nullable=True)",
+        "detail": "migrations.versions.debb1e98662f_fixed_relationships_and_user_permissions",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "description": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "peekOfCode": "def upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('sequence', sa.Integer(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_column('sequence')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "description": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "peekOfCode": "def downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_column('sequence')\n    # ### end Alembic commands ###",
+        "detail": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "description": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "peekOfCode": "revision = 'ea1100ec8b77'\ndown_revision = '7bc70f9c0606'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('sequence', sa.Integer(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():",
+        "detail": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "description": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "peekOfCode": "down_revision = '7bc70f9c0606'\nbranch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('sequence', sa.Integer(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "description": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('sequence', sa.Integer(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:",
+        "detail": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "description": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "peekOfCode": "depends_on = None\ndef upgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.add_column(sa.Column('sequence', sa.Integer(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade():\n    # ### commands auto generated by Alembic - please adjust! ###\n    with op.batch_alter_table('module', schema=None) as batch_op:\n        batch_op.drop_column('sequence')",
+        "detail": "migrations.versions.ea1100ec8b77_add_module_table_and_module_roles_",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine_url",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(\n            '%', '%%')\n    except AttributeError:\n        return str(get_engine().url).replace('%', '%%')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_db",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_db = current_app.extensions['migrate'].db\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "inject_message",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def inject_message():\n    \"\"\"Make messages globally available in templates.\"\"\"\n    return {'message': get_message()}\napp.config[\"SQLALCHEMY_DATABASE_URI\"] = \"mysql+pymysql://root:@localhost:3306/prokora\"\napp.config[\"SQLALCHEMY_TRACK_MODIFICATIONS\"] = False\napp.config[\"SECRET_KEY\"] = os.urandom(24)\napp.config[\"SECURITY_PASSWORD_SALT\"] = \"salted\"\napp.config[\"SECURITY_LOGIN_URL\"] = \"/login\"\napp.config[\"SECURITY_POST_LOGIN_VIEW\"] = \"/index\"\napp.config[\"SECURITY_LOGOUT_URL\"] = \"/logout\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "prevent_session_creation",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def prevent_session_creation():\n    \"\"\"Prevent Flask from creating a session before login.\"\"\"\n    if \"user_id\" not in session:\n        session.modified = False  \n@app.template_test(\"intersecting\")\ndef is_intersecting(list1, list2):\n    try:\n        return bool(set(list1) & set(list2))\n    except Exception:\n        return False",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "is_intersecting",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def is_intersecting(list1, list2):\n    try:\n        return bool(set(list1) & set(list2))\n    except Exception:\n        return False\nif __name__ == \"__main__\":\n    with app.app_context():\n        db.create_all()  \n    app.run(host=\"0.0.0.0\", port=5000, debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.config[\"DEBUG\"] = True\napp.config[\"ENV\"] = \"development\"\nlogging.basicConfig(\n    filename=\"app.log\",\n    level=logging.DEBUG,\n    format=\"%(asctime)s - %(levelname)s - %(message)s\",\n)\n@app.context_processor\ndef inject_message():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"DEBUG\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"DEBUG\"] = True\napp.config[\"ENV\"] = \"development\"\nlogging.basicConfig(\n    filename=\"app.log\",\n    level=logging.DEBUG,\n    format=\"%(asctime)s - %(levelname)s - %(message)s\",\n)\n@app.context_processor\ndef inject_message():\n    \"\"\"Make messages globally available in templates.\"\"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"ENV\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"ENV\"] = \"development\"\nlogging.basicConfig(\n    filename=\"app.log\",\n    level=logging.DEBUG,\n    format=\"%(asctime)s - %(levelname)s - %(message)s\",\n)\n@app.context_processor\ndef inject_message():\n    \"\"\"Make messages globally available in templates.\"\"\"\n    return {'message': get_message()}",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SQLALCHEMY_DATABASE_URI\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SQLALCHEMY_DATABASE_URI\"] = \"mysql+pymysql://root:@localhost:3306/prokora\"\napp.config[\"SQLALCHEMY_TRACK_MODIFICATIONS\"] = False\napp.config[\"SECRET_KEY\"] = os.urandom(24)\napp.config[\"SECURITY_PASSWORD_SALT\"] = \"salted\"\napp.config[\"SECURITY_LOGIN_URL\"] = \"/login\"\napp.config[\"SECURITY_POST_LOGIN_VIEW\"] = \"/index\"\napp.config[\"SECURITY_LOGOUT_URL\"] = \"/logout\"\napp.config[\"SECURITY_POST_LOGOUT_VIEW\"] = \"/\"\napp.config[\"SESSION_TYPE\"] = \"filesystem\"\napp.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SQLALCHEMY_TRACK_MODIFICATIONS\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SQLALCHEMY_TRACK_MODIFICATIONS\"] = False\napp.config[\"SECRET_KEY\"] = os.urandom(24)\napp.config[\"SECURITY_PASSWORD_SALT\"] = \"salted\"\napp.config[\"SECURITY_LOGIN_URL\"] = \"/login\"\napp.config[\"SECURITY_POST_LOGIN_VIEW\"] = \"/index\"\napp.config[\"SECURITY_LOGOUT_URL\"] = \"/logout\"\napp.config[\"SECURITY_POST_LOGOUT_VIEW\"] = \"/\"\napp.config[\"SESSION_TYPE\"] = \"filesystem\"\napp.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"\napp.config[\"SESSION_USE_SIGNER\"] = True",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SECRET_KEY\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SECRET_KEY\"] = os.urandom(24)\napp.config[\"SECURITY_PASSWORD_SALT\"] = \"salted\"\napp.config[\"SECURITY_LOGIN_URL\"] = \"/login\"\napp.config[\"SECURITY_POST_LOGIN_VIEW\"] = \"/index\"\napp.config[\"SECURITY_LOGOUT_URL\"] = \"/logout\"\napp.config[\"SECURITY_POST_LOGOUT_VIEW\"] = \"/\"\napp.config[\"SESSION_TYPE\"] = \"filesystem\"\napp.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"\napp.config[\"SESSION_USE_SIGNER\"] = True\napp.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SECURITY_PASSWORD_SALT\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SECURITY_PASSWORD_SALT\"] = \"salted\"\napp.config[\"SECURITY_LOGIN_URL\"] = \"/login\"\napp.config[\"SECURITY_POST_LOGIN_VIEW\"] = \"/index\"\napp.config[\"SECURITY_LOGOUT_URL\"] = \"/logout\"\napp.config[\"SECURITY_POST_LOGOUT_VIEW\"] = \"/\"\napp.config[\"SESSION_TYPE\"] = \"filesystem\"\napp.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"\napp.config[\"SESSION_USE_SIGNER\"] = True\napp.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"\napp.config[\"SESSION_COOKIE_HTTPONLY\"] = True",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SECURITY_LOGIN_URL\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SECURITY_LOGIN_URL\"] = \"/login\"\napp.config[\"SECURITY_POST_LOGIN_VIEW\"] = \"/index\"\napp.config[\"SECURITY_LOGOUT_URL\"] = \"/logout\"\napp.config[\"SECURITY_POST_LOGOUT_VIEW\"] = \"/\"\napp.config[\"SESSION_TYPE\"] = \"filesystem\"\napp.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"\napp.config[\"SESSION_USE_SIGNER\"] = True\napp.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"\napp.config[\"SESSION_COOKIE_HTTPONLY\"] = True\napp.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SECURITY_POST_LOGIN_VIEW\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SECURITY_POST_LOGIN_VIEW\"] = \"/index\"\napp.config[\"SECURITY_LOGOUT_URL\"] = \"/logout\"\napp.config[\"SECURITY_POST_LOGOUT_VIEW\"] = \"/\"\napp.config[\"SESSION_TYPE\"] = \"filesystem\"\napp.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"\napp.config[\"SESSION_USE_SIGNER\"] = True\napp.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"\napp.config[\"SESSION_COOKIE_HTTPONLY\"] = True\napp.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"\napp.config[\"SESSION_COOKIE_SECURE\"] = False",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SECURITY_LOGOUT_URL\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SECURITY_LOGOUT_URL\"] = \"/logout\"\napp.config[\"SECURITY_POST_LOGOUT_VIEW\"] = \"/\"\napp.config[\"SESSION_TYPE\"] = \"filesystem\"\napp.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"\napp.config[\"SESSION_USE_SIGNER\"] = True\napp.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"\napp.config[\"SESSION_COOKIE_HTTPONLY\"] = True\napp.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"\napp.config[\"SESSION_COOKIE_SECURE\"] = False\napp.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SECURITY_POST_LOGOUT_VIEW\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SECURITY_POST_LOGOUT_VIEW\"] = \"/\"\napp.config[\"SESSION_TYPE\"] = \"filesystem\"\napp.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"\napp.config[\"SESSION_USE_SIGNER\"] = True\napp.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"\napp.config[\"SESSION_COOKIE_HTTPONLY\"] = True\napp.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"\napp.config[\"SESSION_COOKIE_SECURE\"] = False\napp.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False\napp.config[\"SESSION_PERMANENT\"] = False",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SESSION_TYPE\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SESSION_TYPE\"] = \"filesystem\"\napp.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"\napp.config[\"SESSION_USE_SIGNER\"] = True\napp.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"\napp.config[\"SESSION_COOKIE_HTTPONLY\"] = True\napp.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"\napp.config[\"SESSION_COOKIE_SECURE\"] = False\napp.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False\napp.config[\"SESSION_PERMANENT\"] = False\napp.permanent_session_lifetime = timedelta(days=1)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SESSION_FILE_DIR\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SESSION_FILE_DIR\"] = \"./flask_session\"\napp.config[\"SESSION_USE_SIGNER\"] = True\napp.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"\napp.config[\"SESSION_COOKIE_HTTPONLY\"] = True\napp.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"\napp.config[\"SESSION_COOKIE_SECURE\"] = False\napp.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False\napp.config[\"SESSION_PERMANENT\"] = False\napp.permanent_session_lifetime = timedelta(days=1)\nSession(app)  # Initialize Flask-Session",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SESSION_USE_SIGNER\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SESSION_USE_SIGNER\"] = True\napp.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"\napp.config[\"SESSION_COOKIE_HTTPONLY\"] = True\napp.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"\napp.config[\"SESSION_COOKIE_SECURE\"] = False\napp.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False\napp.config[\"SESSION_PERMANENT\"] = False\napp.permanent_session_lifetime = timedelta(days=1)\nSession(app)  # Initialize Flask-Session\nfrom models import db, User, Role  ",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SESSION_COOKIE_NAME\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SESSION_COOKIE_NAME\"] = \"flask_session\"\napp.config[\"SESSION_COOKIE_HTTPONLY\"] = True\napp.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"\napp.config[\"SESSION_COOKIE_SECURE\"] = False\napp.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False\napp.config[\"SESSION_PERMANENT\"] = False\napp.permanent_session_lifetime = timedelta(days=1)\nSession(app)  # Initialize Flask-Session\nfrom models import db, User, Role  \ndb.init_app(app)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SESSION_COOKIE_HTTPONLY\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SESSION_COOKIE_HTTPONLY\"] = True\napp.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"\napp.config[\"SESSION_COOKIE_SECURE\"] = False\napp.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False\napp.config[\"SESSION_PERMANENT\"] = False\napp.permanent_session_lifetime = timedelta(days=1)\nSession(app)  # Initialize Flask-Session\nfrom models import db, User, Role  \ndb.init_app(app)\nmigrate = Migrate(app, db)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SESSION_COOKIE_SAMESITE\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SESSION_COOKIE_SAMESITE\"] = \"Lax\"\napp.config[\"SESSION_COOKIE_SECURE\"] = False\napp.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False\napp.config[\"SESSION_PERMANENT\"] = False\napp.permanent_session_lifetime = timedelta(days=1)\nSession(app)  # Initialize Flask-Session\nfrom models import db, User, Role  \ndb.init_app(app)\nmigrate = Migrate(app, db)\n# ✅ Register Routes",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SESSION_COOKIE_SECURE\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SESSION_COOKIE_SECURE\"] = False\napp.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False\napp.config[\"SESSION_PERMANENT\"] = False\napp.permanent_session_lifetime = timedelta(days=1)\nSession(app)  # Initialize Flask-Session\nfrom models import db, User, Role  \ndb.init_app(app)\nmigrate = Migrate(app, db)\n# ✅ Register Routes\nfrom routes import init_routes  ",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SESSION_REFRESH_EACH_REQUEST\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SESSION_REFRESH_EACH_REQUEST\"] = False\napp.config[\"SESSION_PERMANENT\"] = False\napp.permanent_session_lifetime = timedelta(days=1)\nSession(app)  # Initialize Flask-Session\nfrom models import db, User, Role  \ndb.init_app(app)\nmigrate = Migrate(app, db)\n# ✅ Register Routes\nfrom routes import init_routes  \ninit_routes(app)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config[\"SESSION_PERMANENT\"]",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config[\"SESSION_PERMANENT\"] = False\napp.permanent_session_lifetime = timedelta(days=1)\nSession(app)  # Initialize Flask-Session\nfrom models import db, User, Role  \ndb.init_app(app)\nmigrate = Migrate(app, db)\n# ✅ Register Routes\nfrom routes import init_routes  \ninit_routes(app)\n@app.before_request",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.permanent_session_lifetime",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.permanent_session_lifetime = timedelta(days=1)\nSession(app)  # Initialize Flask-Session\nfrom models import db, User, Role  \ndb.init_app(app)\nmigrate = Migrate(app, db)\n# ✅ Register Routes\nfrom routes import init_routes  \ninit_routes(app)\n@app.before_request\ndef prevent_session_creation():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "migrate",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "migrate = Migrate(app, db)\n# ✅ Register Routes\nfrom routes import init_routes  \ninit_routes(app)\n@app.before_request\ndef prevent_session_creation():\n    \"\"\"Prevent Flask from creating a session before login.\"\"\"\n    if \"user_id\" not in session:\n        session.modified = False  \n@app.template_test(\"intersecting\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "CRUD",
+        "kind": 6,
+        "importPath": "crud",
+        "description": "crud",
+        "peekOfCode": "class CRUD:\n    @staticmethod\n    def add_project(model, name, description, status):\n        try:\n            existing_project = model.query.filter_by(name=name).first()\n            if existing_project:\n                logging.info(f\"Project with name '{name}' already exists.\")\n                return {\"status\": \"error\", \"message\": \"Error: A project with this name already exists.\"}\n            new_project = model(name=name, description=description, status=status)\n            db.session.add(new_project)",
+        "detail": "crud",
+        "documentation": {}
+    },
+    {
+        "label": "CRUD",
+        "kind": 6,
+        "importPath": "crud_backup",
+        "description": "crud_backup",
+        "peekOfCode": "class CRUD:\n    @staticmethod\n    def add(model, data):\n        try:\n            existing_item = model.query.filter_by(name=data.get('name')).first()\n            if existing_item:\n                logging.info(f\"Item with name '{data['name']}' already exists.\")\n                return False, \"Error: Item with that name already exists.\"\n            new_entry = model(**data)\n            db.session.add(new_entry)",
+        "detail": "crud_backup",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "forms",
+        "description": "forms",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    email = StringField('Email', validators=[DataRequired()])\n    password = PasswordField('Password', validators=[DataRequired()])",
+        "detail": "forms",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Role(db.Model, RoleMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(50), unique=True, nullable=False)\n    permissions = db.relationship(\"Permission\", secondary=role_permissions, back_populates=\"roles\")\n    users = db.relationship(\"User\", secondary=\"user_roles\", back_populates=\"roles\")\n    modules = db.relationship(\"Module\", secondary=module_roles, back_populates=\"allowed_roles\")\n    submodules = db.relationship(\"Submodule\", secondary=submodule_roles, back_populates=\"allowed_roles\")\n    def __repr__(self):\n        return f\"<Role {self.name}>\"\n# User-Role Association",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "UserRoles",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class UserRoles(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey(\"user.id\", ondelete=\"CASCADE\"))\n    role_id = db.Column(db.Integer, db.ForeignKey(\"role.id\", ondelete=\"CASCADE\"))\n# Permission Model\nclass Permission(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(80), unique=True, nullable=False)\n    description = db.Column(db.String(255))\n    roles = db.relationship(\"Role\", secondary=role_permissions, back_populates=\"permissions\")",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Permission",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Permission(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(80), unique=True, nullable=False)\n    description = db.Column(db.String(255))\n    roles = db.relationship(\"Role\", secondary=role_permissions, back_populates=\"permissions\")\n    def __repr__(self):\n        return f\"<Permission {self.name}>\"\n# Project Model\nclass Project(db.Model):\n    id = db.Column(db.Integer, primary_key=True)",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Project",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Project(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100), nullable=False)\n    description = db.Column(db.Text)\n    status = db.Column(db.String(50), nullable=False, default='on_going')\n    def __repr__(self):\n        return f\"<Project {self.name}>\"\n# Module Model\nclass Module(db.Model):\n    __tablename__ = \"module\"",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Module",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Module(db.Model):\n    __tablename__ = \"module\"\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(50), unique=True, nullable=False)\n    display_name = db.Column(db.String(100), nullable=False)\n    icon = db.Column(db.String(100), nullable=False)\n    url = db.Column(db.String(255))\n    sequence = db.Column(db.Integer, default=0, nullable=False)\n    allowed_roles = db.relationship(\"Role\", secondary=module_roles, back_populates=\"modules\")\n    submodules = db.relationship(\"Submodule\", back_populates=\"module\", cascade=\"all, delete-orphan\")",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "Submodule",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class Submodule(db.Model):\n    __tablename__ = \"submodule\"\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(50), nullable=False)\n    display_name = db.Column(db.String(100), nullable=False)\n    icon = db.Column(db.String(100), nullable=False)\n    url = db.Column(db.String(255))\n    sequence = db.Column(db.Integer, default=0, nullable=False)\n    module_id = db.Column(db.Integer, db.ForeignKey('module.id', ondelete='CASCADE'), nullable=False)\n    module = db.relationship(\"Module\", back_populates=\"submodules\")",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100), nullable=False)\n    email = db.Column(db.String(120), unique=True, nullable=False)\n    password_hash = db.Column(db.String(255), nullable=False)\n    fs_uniquifier = db.Column(db.String(255), unique=True, nullable=False, default=lambda: str(uuid.uuid4()))\n    is_active = db.Column(db.Boolean, default=False)\n    activation_token = db.Column(db.String(64), unique=True)\n    roles = db.relationship(\"Role\", secondary=\"user_roles\", back_populates=\"users\")\n    @property",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "db = SQLAlchemy()\n# Association Tables\nrole_permissions = db.Table(\n    \"role_permissions\",\n    db.Column(\"role_id\", db.Integer, db.ForeignKey(\"role.id\", ondelete=\"CASCADE\"), primary_key=True),\n    db.Column(\"permission_id\", db.Integer, db.ForeignKey(\"permission.id\", ondelete=\"CASCADE\"), primary_key=True)\n)\nmodule_roles = db.Table(\n    \"module_roles\",\n    db.Column(\"module_id\", db.Integer, db.ForeignKey(\"module.id\", ondelete=\"CASCADE\"), primary_key=True),",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "role_permissions",
+        "kind": 5,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "role_permissions = db.Table(\n    \"role_permissions\",\n    db.Column(\"role_id\", db.Integer, db.ForeignKey(\"role.id\", ondelete=\"CASCADE\"), primary_key=True),\n    db.Column(\"permission_id\", db.Integer, db.ForeignKey(\"permission.id\", ondelete=\"CASCADE\"), primary_key=True)\n)\nmodule_roles = db.Table(\n    \"module_roles\",\n    db.Column(\"module_id\", db.Integer, db.ForeignKey(\"module.id\", ondelete=\"CASCADE\"), primary_key=True),\n    db.Column(\"role_id\", db.Integer, db.ForeignKey(\"role.id\", ondelete=\"CASCADE\"), primary_key=True)\n)",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "module_roles",
+        "kind": 5,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "module_roles = db.Table(\n    \"module_roles\",\n    db.Column(\"module_id\", db.Integer, db.ForeignKey(\"module.id\", ondelete=\"CASCADE\"), primary_key=True),\n    db.Column(\"role_id\", db.Integer, db.ForeignKey(\"role.id\", ondelete=\"CASCADE\"), primary_key=True)\n)\nsubmodule_roles = db.Table(\n    \"submodule_roles\",\n    db.Column(\"submodule_id\", db.Integer, db.ForeignKey(\"submodule.id\", ondelete=\"CASCADE\"), primary_key=True),\n    db.Column(\"role_id\", db.Integer, db.ForeignKey(\"role.id\", ondelete=\"CASCADE\"), primary_key=True)\n)",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "submodule_roles",
+        "kind": 5,
+        "importPath": "models",
+        "description": "models",
+        "peekOfCode": "submodule_roles = db.Table(\n    \"submodule_roles\",\n    db.Column(\"submodule_id\", db.Integer, db.ForeignKey(\"submodule.id\", ondelete=\"CASCADE\"), primary_key=True),\n    db.Column(\"role_id\", db.Integer, db.ForeignKey(\"role.id\", ondelete=\"CASCADE\"), primary_key=True)\n)\n# Role Model\nclass Role(db.Model, RoleMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(50), unique=True, nullable=False)\n    permissions = db.relationship(\"Permission\", secondary=role_permissions, back_populates=\"roles\")",
+        "detail": "models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "old_model",
+        "description": "old_model",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    email = db.Column(db.String(100), unique=True, nullable=False)\n    password_hash = db.Column(db.String(255), nullable=False)  \n    fs_uniquifier = db.Column(db.String(64), unique=True, nullable=False, default=lambda: str(uuid.uuid4()))  \n    active = db.Column(db.Boolean, default=True)\n    roles = db.relationship(\"Role\", secondary=roles_users, backref=db.backref(\"users\", lazy=\"dynamic\"))\n    def set_password(self, password):\n        self.password_hash = generate_password_hash(password)\n    def check_password(self, password):",
+        "detail": "old_model",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "kind": 6,
+        "importPath": "old_model",
+        "description": "old_model",
+        "peekOfCode": "class Role(db.Model, RoleMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(80), unique=True)\nclass Item(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100), unique=True, nullable=False)\n    def to_dict(self):\n        return {\n            \"id\": self.id,\n            \"name\": self.name",
+        "detail": "old_model",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "old_model",
+        "description": "old_model",
+        "peekOfCode": "class Item(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100), unique=True, nullable=False)\n    def to_dict(self):\n        return {\n            \"id\": self.id,\n            \"name\": self.name\n        }",
+        "detail": "old_model",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "old_model",
+        "description": "old_model",
+        "peekOfCode": "db = SQLAlchemy()  # ✅ Define db instance here, initialized later in app.py\nroles_users = db.Table(\n    \"roles_users\",\n    db.Column(\"user_id\", db.Integer, db.ForeignKey(\"user.id\")),\n    db.Column(\"role_id\", db.Integer, db.ForeignKey(\"role.id\")),\n)\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    email = db.Column(db.String(100), unique=True, nullable=False)\n    password_hash = db.Column(db.String(255), nullable=False)  ",
+        "detail": "old_model",
+        "documentation": {}
+    },
+    {
+        "label": "roles_users",
+        "kind": 5,
+        "importPath": "old_model",
+        "description": "old_model",
+        "peekOfCode": "roles_users = db.Table(\n    \"roles_users\",\n    db.Column(\"user_id\", db.Integer, db.ForeignKey(\"user.id\")),\n    db.Column(\"role_id\", db.Integer, db.ForeignKey(\"role.id\")),\n)\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    email = db.Column(db.String(100), unique=True, nullable=False)\n    password_hash = db.Column(db.String(255), nullable=False)  \n    fs_uniquifier = db.Column(db.String(64), unique=True, nullable=False, default=lambda: str(uuid.uuid4()))  ",
+        "detail": "old_model",
+        "documentation": {}
+    },
+    {
+        "label": "update_submodule_roles",
+        "kind": 2,
+        "importPath": "populate_db",
+        "description": "populate_db",
+        "peekOfCode": "def update_submodule_roles():\n    with app.app_context():\n        # List of submodule data to move from Module table to Submodule table, including roles\n        submodules_data = [\n            {'name': 'user_list', 'display_name': 'User List', 'icon': 'list_alt', 'url': '/load_module/user_list', 'sequence': 1, 'parent_module_name': 'user_management', 'roles': ['admin']},\n            {'name': 'user_profile', 'display_name': 'User Profile', 'icon': 'person', 'url': '/load_module/user_profile', 'sequence': 2, 'parent_module_name': 'user_management', 'roles': ['admin']},\n            {'name': 'ongoing', 'display_name': 'Ongoing', 'icon': 'event_repeat', 'url': '/load_module/ongoing', 'sequence': 1, 'parent_module_name': 'projects', 'roles': ['admin', 'project']},\n            {'name': 'finished', 'display_name': 'Finished', 'icon': 'task_alt', 'url': '/load_module/finished', 'sequence': 2, 'parent_module_name': 'projects', 'roles': ['admin', 'project']}\n        ]\n        for submodule_data in submodules_data:",
+        "detail": "populate_db",
+        "documentation": {}
+    },
+    {
+        "label": "projects",
+        "kind": 5,
+        "importPath": "projects",
+        "description": "projects",
+        "peekOfCode": "projects = [\n    {\"name\": \"Website Redesign\", \"description\": \"Revamp the company's main website.\"},\n    {\"name\": \"Mobile App Development\", \"description\": \"Create a cross-platform mobile application.\"},\n    {\"name\": \"Marketing Campaign\", \"description\": \"Launch a new digital marketing strategy.\"},\n    {\"name\": \"CRM System Upgrade\", \"description\": \"Upgrade the existing CRM software.\"},\n    {\"name\": \"Employee Training Program\", \"description\": \"Develop a new training curriculum for employees.\"}\n]\n# Use the application context\nwith app.app_context():\n    for project_data in projects:",
+        "detail": "projects",
+        "documentation": {}
+    },
+    {
+        "label": "init_routes",
+        "kind": 2,
+        "importPath": "routes",
+        "description": "routes",
+        "peekOfCode": "def init_routes(app):\n    @app.before_request\n    def prevent_session_before_login():\n        \"\"\"Prevents session from being created before login.\"\"\"\n        if \"user_id\" not in session:\n            return  \n    @app.route(\"/\", methods=[\"GET\", \"POST\"])\n    def login_page():\n        \"\"\"Login page for the user.\"\"\"\n        if \"user_id\" in session:",
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "init_routes",
+        "kind": 2,
+        "importPath": "routes_backup",
+        "description": "routes_backup",
+        "peekOfCode": "def init_routes(app):\n    @app.before_request\n    def prevent_session_before_login():\n        \"\"\"Prevents session from being created before login.\"\"\"\n        if \"user_id\" not in session:\n            return  \n    @app.route(\"/\", methods=[\"GET\", \"POST\"])\n    def login_page():\n        message = get_message()\n        if request.method == \"POST\":",
+        "detail": "routes_backup",
+        "documentation": {}
+    }
+]

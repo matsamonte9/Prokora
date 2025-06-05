@@ -1,0 +1,26 @@
+{% set title = "Projects" %}
+{% include 'header.html' with context %}
+
+<div id="message-container">
+    {% if message %}
+    <div class="alert alert-warning alert-dismissible fade show" role="alert" id="message">
+        {{ message }}
+    </div>
+    {% endif %}
+</div>
+
+<div id="projectTableContainer">
+    {% include 'modules/partials/project_table.html' %}
+</div>
+
+
+
+
+{% include 'modules/add_project.html' %}
+{% include 'modules/edit_project.html' %}
+{% include 'modules/view_project.html' %}
+
+<script src="{{ url_for('static', filename='js/common.js') }}"></script>
+<script type="module" src="{{ url_for('static', filename='js/projects.js') }}"></script>
+<script src="{{ url_for('static', filename='js/modal.js') }}"></script>
+
