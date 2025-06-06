@@ -7,11 +7,17 @@
     </div>
     {% endif %}
 </div>
-<div id="user-management-view" style="display: {{ 'block' if initial_view == 'user_list' else 'none' }};">
+<div id="user-management-view" style="display: {{ 'block' if initial_view in ['user_list', 'user_profile'] else 'none' }};">
   <div id="userTableContainer">
-    {% include 'modules/partials/user_table.html' %}
+    {% if initial_view == 'user_list' %}
+      {% include 'modules/partials/user_table.html' %}
+    {% elif initial_view == 'user_profile' %}
+      {% include 'modules/partials/user_profile_table.html' %}
+    {% endif %}
   </div>
 </div>
+
+
 
 <div id="permissions-view" style="display: {{ 'block' if initial_view == 'permissions' else 'none' }};">
   <button class="action-button back" onclick="switchToUserManagementView()">

@@ -1,0 +1,48 @@
+<div class="table-data"> 
+  <div class="user-list">
+    <div class="head">
+      <h3>User Profiles (View Only)</h3>
+      <div class="head-center">
+        <div class="search-box">
+          <form method="get" action="{{ url_for('user_management') }}" class="search-box">
+            <span class="material-symbols-outlined">search</span>
+            <input type="text" placeholder="Search for ID, Name, or Email" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Profile</th>
+          <th>Role</th>
+          <th>Email</th>
+          <th>Permissions</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for user in users %}
+        <tr onclick="window.location.href='{{ url_for('user_profile_page', user_id=user.id) }}'" style="cursor: pointer;">
+          <td><p>{{ user.id }}</p></td>
+          <td>
+            <img src="{{ url_for('static', filename='images/user_profile.png') }}" alt="Logo">
+            <p>{{ user.name }}</p>
+          </td>
+          <td>
+            {% for role in user_roles[user.id] %}
+              <p>{{ role }}</p>
+            {% endfor %}
+          </td>
+          <td><p>{{ user.email }}</p></td>
+          <td class="permissions-container">
+            {% for perm in user_permissions[user.id]|sort %}
+              <p class="permission-item">{{ perm }}</p>
+            {% endfor %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>

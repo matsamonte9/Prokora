@@ -1,0 +1,52 @@
+{% extends "index.html" %}
+{% set title = user.name + "'s Profile" %}
+
+{% block content %}
+<main class="table-data mt-4">
+  <div class="user-list">
+    <div class="head">
+      <h3>{{ user.name }}'s Profile</h3>
+        <a href="{{ url_for('index', module='user_management', submodule='user_profile') }}" class="action-button add-user">
+        ← Back to User List
+        </a>
+    
+    </div>
+
+    <div class="profile-content">
+      <div class="profile-overview" style="display: flex; align-items: center; gap: 20px; margin-bottom: 24px;">
+        <img src="{{ url_for('static', filename='images/user_profile.png') }}" alt="Profile Photo" class="profile-photo" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 2px solid #d12b16;">
+        <div>
+          <p><strong style="color: var(--clr-dark);">Name:</strong> {{ user.name }}</p>
+          <p><strong style="color: var(--clr-dark);">Email:</strong> {{ user.email }}</p>
+          <p><strong style="color: var(--clr-dark);">Roles:</strong> 
+            {% for role in roles %}
+              <span class="permission-pill">{{ role.name }}</span>
+            {% endfor %}
+          </p>
+        </div>
+      </div>
+
+      <div class="permissions-section">
+        <h4 style="color: var(--clr-dark); margin-bottom: 12px;">Permissions</h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+          {% for perm in permissions %}
+            <span class="permission-pill">{{ perm }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<style>
+.permission-pill {
+  background-color: #d12b16;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+}
+</style>
+{% endblock %}

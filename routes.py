@@ -316,8 +316,37 @@ def init_routes(app):
                     message=message,
                     initial_view="user_list"  # Pass flag to show user list initially
                 ))
-            
+                
+            if submodule == "user_profile":
+                users = User.query.all()
+                
+                user_roles_map = {}
+                user_permissions_map = {}
+                
+                for user in users:
+                    roles = db.session.query(Role.name) \
+                        .join(UserRoles, Role.id == UserRoles.role_id) \
+                        .filter(UserRoles.user_id == user.id).all()
+                    roles = [role[0] for role in roles]
+                    user_roles_map[user.id] = roles
 
+                    permissions = set()
+                    for role in roles:
+                        role_obj = Role.query.filter_by(name=role).first()
+                        if role_obj:
+                            permissions.update([perm.name for perm in role_obj.permissions])
+                    user_permissions_map[user.id] = list(permissions)
+                
+                return make_response(render_template(
+                "modules/user_management.html",
+                users=users,
+                user_roles=user_roles_map,
+                user_permissions=user_permissions_map,
+                message=message,
+                initial_view="user_profile"  # 👈 ensures correct block loads
+            ))
+            
+            
             # 🧾 Otherwise, return full user_management view
             return make_response(render_template("modules/user_management.html",
                                                 users=users,
@@ -349,7 +378,34 @@ def init_routes(app):
         
         return response
         
+    @app.route('/user_profile/<int:user_id>')
+    def user_profile_page(user_id):
+        # Fetch the user by ID
+        user = db.session.query(User).filter_by(id=user_id).first()
+        if not user:
+            abort(404)
+        
+        # Get roles assigned to the user
+        roles = user.roles  # Assuming User model has roles relationship
+        
+        # Collect permissions from all roles assigned to user
+        permissions = set()
+        for role in roles:
+            for perm in role.permissions:  # Assuming Role model has permissions relationship
+                permissions.add(perm.name)
+
+        # Convert permissions set to list for easier template use
+        permissions = list(permissions)
+        
+        return render_template(
+            "modules/user_profile_page.html",
+            user=user,
+            roles=roles,
+            permissions=permissions,
+            user_permissions=permissions
+        )
     
+        
     @app.route("/user/view/<int:user_id>")
     def view_user_profile(user_id):
         user = User.query.get(user_id)
