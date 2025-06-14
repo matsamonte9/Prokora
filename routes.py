@@ -549,11 +549,50 @@ def init_routes(app):
         
     @app.route('/get_user_table', methods=['GET'])
     def get_user_table():
-        users = User.query.all()  # Return full User objects
-        return render_template('modules/partials/user_table.html', users=users)
-        
-    
-    
+        page = int(request.args.get("page", 1))
+        per_page = 4
+        submodule = request.args.get("submodule", "user_list")
+
+        pagination = User.query.paginate(page=page, per_page=per_page, error_out=False)
+        users = pagination.items
+        total_pages = pagination.pages or 1
+
+        user_roles_map = {}
+        user_permissions_map = {}
+
+        for user in users:
+            roles = db.session.query(Role.name) \
+                .join(UserRoles, Role.id == UserRoles.role_id) \
+                .filter(UserRoles.user_id == user.id).all()
+            roles = [r[0] for r in roles]
+            user_roles_map[user.id] = roles
+
+            permissions = set()
+            for role in roles:
+                role_obj = Role.query.filter_by(name=role).first()
+                if role_obj:
+                    permissions.update([p.name for p in role_obj.permissions])
+            user_permissions_map[user.id] = list(permissions)
+
+        if submodule == "user_profile":
+            return render_template(
+                'modules/partials/user_profile_table.html',
+                users=users,
+                user_roles=user_roles_map,
+                user_permissions=user_permissions_map,
+                current_page=page,
+                total_pages=total_pages
+            )
+        else:
+            return render_template(
+                'modules/partials/user_table.html',
+                users=users,
+                user_roles=user_roles_map,
+                user_permissions=user_permissions_map,
+                current_page=page,
+                total_pages=total_pages
+            )
+
     @app.route('/delete_user/<int:user_id>', methods=['POST'])
     def delete_user(user_id):
         try:

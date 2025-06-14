@@ -52,6 +52,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const html = await response.text();
             mainContent.innerHTML = html;
+
+            if (typeof window.setupThemeToggler === "function") {
+            setupThemeToggler();
+            }
             updateActiveLink(moduleName, submoduleName);
             history.pushState({ module: moduleName, submodule: submoduleName }, "", `?module=${moduleName}&submodule=${submoduleName || ""}`);
 
@@ -63,6 +67,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 } catch (paginationErr) {
                     console.error("❌ Failed to load project table:", paginationErr);
                 }
+            }
+
+            if (moduleName === "user_management") {
+                setTimeout(() => {
+                    if (typeof window.reloadUserTable === "function") {
+                        window.reloadUserTable(1);
+                    } else {
+                        console.warn("❌ reloadUserTable is not defined yet");
+                    }
+                }, 50);
             }
 
             setTimeout(() => {

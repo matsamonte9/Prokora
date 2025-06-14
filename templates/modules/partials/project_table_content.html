@@ -36,9 +36,13 @@
       <td>{{ project.name }}</td>
       <td>{{ project.description }}</td>
       <td>
-        <span class="{% if project.status == 'ongoing' %}status-ongoing{% elif project.status == 'finished' %}status-finished{% endif %}">
-          {{ project.status }}
-        </span>
+      {% if project.status == 'ongoing' %}
+        <span class="status pending">Ongoing</span>
+      {% elif project.status == 'finished' %}
+        <span class="status completed">Finished</span>
+      {% else %}
+        <span class="status">{{ project.status | capitalize }}</span>
+      {% endif %}
       </td>
       <td>
         {% if 'view' in user_permissions %}

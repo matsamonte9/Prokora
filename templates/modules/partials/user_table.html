@@ -2,7 +2,7 @@
   <div class="table-data">
     <div class="user-list">
       <div class="head">
-        <h3>Users</h3>
+        <h3>User List</h3>
         <div class="head-center">
           <div class="search-box">
             <form method="get" action="{{ url_for('user_management') }}" class="search-box">
@@ -52,12 +52,12 @@
               {% endfor %}
             </td>
             <td>
-              <span type="button" onclick="toggleEditUserModal()" class="material-symbols-outlined btn-edit"
+              <span onclick="toggleEditUserModal()" class="material-symbols-outlined btn-edit-user"
                     data-user-id="{{ user.id }}"
                     data-name="{{ user.name }}"
                     data-email="{{ user.email }}"
                     data-role="{{ user.roles[0].name if user.roles else 'No Role' }}">edit</span>
-              <span class="material-symbols-outlined btn-delete" data-user-id="{{ user.id }}">delete</span>
+              <span class="material-symbols-outlined btn-delete-user" data-user-id="{{ user.id }}">delete</span>
             </td>
           </tr>
           {% endfor %}
@@ -71,8 +71,9 @@
     <span id="pageInfo"> Page {{ current_page }} of {{ total_pages }}</span>
     <button id="nextPage" {% if current_page == total_pages %}disabled{% endif %}>Next</button>
   </div>
+
 </div>
 
 <script src="{{ url_for('static', filename='js/common.js') }}"></script>
 <script src="{{ url_for('static', filename='js/modal.js') }}"></script>
-<script src="{{ url_for('static', filename='js/userManagement.js') }}"></script>
+<script src="{{ url_for('static', filename='js/usermanagement.js') }}"></script>
