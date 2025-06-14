@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.querySelector("#projectTableContainer");
 
     if (container) {
-        loadProjectTable(module, submodule);  // Load the project table based on the module and submodule
+        const page = getCurrentPage();
     } else {
         console.warn("Project table container not found.");
     }

@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll(".submodules").forEach(sub => {
                 if (sub.id !== targetId) {
                     sub.style.display = "none";
-                    // Reset other toggle icons
                     const otherParent = document.querySelector(`[data-toggle="${sub.id}"]`);
                     if (otherParent) {
                         const icon = otherParent.querySelector(".toggle-icon");
@@ -31,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 targetSub.style.display = isVisible ? "none" : "block";
                 parentLink.classList.toggle("expanded", !isVisible);
 
-                // Toggle the expand/collapse icon
                 const icon = parentLink.querySelector(".toggle-icon");
                 if (icon) {
                     icon.textContent = isVisible ? "expand_more" : "expand_less";
@@ -41,32 +39,45 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Load module function (no page reload)
-    function loadModule(moduleName, submoduleName) {
+    async function loadModule(moduleName, submoduleName) {
         if (!moduleName) return;
 
         const url = submoduleName 
             ? `/load_module/${moduleName}/${submoduleName}`
             : `/load_module/${moduleName}`;
 
-        fetch(url)
-            .then(response => response.ok ? response.text() : Promise.reject("Module not found"))
-            .then(html => {
-                mainContent.innerHTML = html;
-                updateActiveLink(moduleName, submoduleName);
-                history.pushState({ module: moduleName, submodule: submoduleName }, "", `?module=${moduleName}&submodule=${submoduleName || ""}`);
-                setTimeout(() => {
-                    window.initPagination?.(); // optional hook
-                    document.dispatchEvent(new CustomEvent("moduleLoaded", {
-                        detail: { module: moduleName }
-                    }));
-                }, 50);
-            })
-            .catch(err => {
-                console.error(err);
-                mainContent.innerHTML = "<p>Error loading module.</p>";
-            });
+        try {
+            const response = await fetch(url);
+            if (!response.ok) throw new Error("Module not found");
+
+            const html = await response.text();
+            mainContent.innerHTML = html;
+            updateActiveLink(moduleName, submoduleName);
+            history.pushState({ module: moduleName, submodule: submoduleName }, "", `?module=${moduleName}&submodule=${submoduleName || ""}`);
+
+            // ✅ Load paginated project content
+            if (moduleName === "projects" && (submoduleName === "ongoing" || submoduleName === "finished")) {
+                try {
+                    const { loadProjectTable } = await import('/static/js/common.js');
+                    loadProjectTable(moduleName, submoduleName, 1);
+                } catch (paginationErr) {
+                    console.error("❌ Failed to load project table:", paginationErr);
+                }
+            }
+
+            setTimeout(() => {
+                window.initPagination?.();
+                document.dispatchEvent(new CustomEvent("moduleLoaded", {
+                    detail: { module: moduleName }
+                }));
+            }, 50);
+        } catch (err) {
+            console.error(err);
+            mainContent.innerHTML = "<p>Error loading module.</p>";
+        }
     }
-    
+
+
     // Highlight the active link
     function updateActiveLink(moduleName, submoduleName) {
         document.querySelectorAll(".sidebar-link").forEach(link => {

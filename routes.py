@@ -620,21 +620,23 @@ def init_routes(app):
         
     @app.route('/projects')
     def projects():
-        if "user_id" not in session:
-            set_message("Login required!")  
-            return redirect(url_for("login_page"))
-        
-        # Load first page & default filter for initial page load
-        submodule = request.args.get('submodule', 'ongoing')
-        user_roles = session.get("roles", [])  
-        message = get_message()  
-
+        user_roles = session.get("user_roles", [])
+        message = request.args.get("message", "")
         user_permissions = session.get("user_permissions", set())
-        if not user_permissions:
-            roles = Role.query.filter(Role.name.in_(user_roles)).all()
-            user_permissions = {perm.name for role in roles for perm in role.permissions}
-            session["user_permissions"] = user_permissions
-            session.modified = True  
+        submodule = request.args.get("submodule", "ongoing").lower()
+        page = int(request.args.get("page", 1))
+        limit = 4
+
+        if submodule == "ongoing":
+            projects_query = Project.query.filter_by(status="ongoing")
+        elif submodule == "finished":
+            projects_query = Project.query.filter_by(status="finished")
+        else:
+            projects_query = Project.query
+
+        pagination = projects_query.paginate(page=page, per_page=limit, error_out=False)
+        projects = pagination.items
+        total_pages = pagination.pages or 1
 
         return render_template(
             'modules/projects.html',
@@ -642,43 +644,39 @@ def init_routes(app):
             message=message,
             user_permissions=user_permissions,
             submodule=submodule,
+            projects=projects,
+            current_page=page,
+            total_pages=total_pages
         )
-    
-        
-    
+
     
     @app.route('/get_project_table', methods=['GET'])
     def get_project_table():
-        active_submodule = request.args.get('submodule', 'ongoing')
+        active_submodule = request.args.get('submodule', 'ongoing').lower()
         page = int(request.args.get('page', 1))
-        limit = 5
-        
+        limit = 4
+
         if active_submodule == "ongoing":
-            projects_query = Project.query.filter_by(status="Ongoing")
+            projects_query = Project.query.filter_by(status="ongoing")
         elif active_submodule == "finished":
-            projects_query = Project.query.filter_by(status="Finished")
+            projects_query = Project.query.filter_by(status="finished")
         else:
             projects_query = Project.query
-        
+
         pagination = projects_query.paginate(page=page, per_page=limit, error_out=False)
         projects = pagination.items
         total_pages = pagination.pages or 1
 
         user_permissions = session.get("user_permissions", set())
-        
+
         return render_template(
-            'modules/partials/project_table.html',
+            'modules/partials/project_table_content.html',
             projects=projects,
             user_permissions=user_permissions,
             current_page=page,
             total_pages=total_pages
         )
-    
-    
-    
-            
-        
-    
+
     @app.route('/projects/add', methods=['GET', 'POST'])
     def add_project():
         if request.method == "GET":

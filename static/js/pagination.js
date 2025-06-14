@@ -1,4 +1,4 @@
-const rowsPerPage = 5;
+const rowsPerPage = 4;
 window.currentPage = 1;
 
 // Initialize pagination on DOMContentLoaded and after AJAX table reload

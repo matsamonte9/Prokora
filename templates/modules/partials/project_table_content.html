@@ -1,0 +1,63 @@
+<div class="head">
+  <h3>Projects </h3>
+  <div class="head-center">
+    <div class="search-box">
+      <form method="get" action="{{ url_for('projects') }}" class="search-box">
+        <span class="material-symbols-outlined">search</span>
+        <input type="text" placeholder="Search for ID, Name, or Description" />
+      </form>
+    </div>
+  </div>
+
+  {% if 'add' in user_permissions %}
+  <button onclick="toggleAddProjectModal()" class="action-button add-project">
+    <span class="material-symbols-outlined">add</span>
+    Add Project
+  </button>
+  {% endif %}
+</div>
+
+<!-- DEBUG: Page {{ current_page }} of {{ total_pages }} -->
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Project Name</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for project in projects %}
+    <tr data-project-id="{{ project.id }}">
+      <td>{{ project.id }}</td>
+      <td>{{ project.name }}</td>
+      <td>{{ project.description }}</td>
+      <td>
+        <span class="{% if project.status == 'ongoing' %}status-ongoing{% elif project.status == 'finished' %}status-finished{% endif %}">
+          {{ project.status }}
+        </span>
+      </td>
+      <td>
+        {% if 'view' in user_permissions %}
+        <span class="material-symbols-outlined btn-view" data-project-id="{{ project.id }}">visibility</span>
+        {% endif %}
+        {% if 'edit' in user_permissions %}
+        <span class="material-symbols-outlined btn-edit-project" data-project-id="{{ project.id }}" data-name="{{ project.name }}" data-description="{{ project.description }}">edit</span>
+        {% endif %}
+        {% if 'delete' in user_permissions %}
+        <span class="material-symbols-outlined btn-delete-project" data-project-id="{{ project.id }}">delete</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div id="pagination-controls" class="pagination-controls">
+  <button id="prevPage" {% if current_page == 1 %}disabled{% endif %}>Previous</button>
+  <span id="pageInfo">Page {{ current_page }} of {{ total_pages }}</span>
+  <button id="nextPage" {% if current_page == total_pages %}disabled{% endif %}>Next</button>
+</div>
