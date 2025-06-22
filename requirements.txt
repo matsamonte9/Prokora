@@ -6,3 +6,4 @@ Flask-Session==0.4.0
 pymysql==1.1.0
 gunicorn==21.2.0
 setuptools
+requests
