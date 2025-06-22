@@ -26,7 +26,7 @@ def inject_message():
     """Make messages globally available in templates."""
     return {'message': get_message()}
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:@localhost:3306/prokora"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///prokora.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 app.config["SECRET_KEY"] = os.urandom(24)
